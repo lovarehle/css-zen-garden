@@ -1,0 +1,354 @@
+html {
+	font-size: 12px;
+	font-family: sans-serif;
+
+}
+
+
+body {
+background-color: black;
+font-family: monospace;
+font-size: 120%;
+border-style: hidden;
+position:absolute;
+z-index:1;
+
+}
+
+* {
+line-height: 1.5;
+margin-right: 10px;
+margin-left: 10px;
+border: 1px dotted rgb(255,255,255);
+border-color: yellow;
+filter: blur(0.5);
+}
+
+
+header {
+width: 35%;
+z-index:2;
+border-style: hidden;
+left:-20;
+color: pink;
+
+}
+
+
+
+.preamble {
+position:absolute;
+width: 60%;
+top: 18vw;
+left:0;
+z-index:1;
+margin-left: 30px;
+padding: 12px 12px;
+border-style:hidden;
+
+
+}
+
+
+main {
+	position: relatve;
+	left: 40px;
+	float: left;
+	width: 65%;
+	clear: both;
+	margin-bottom:100px;
+	z-index: 3;
+	background-color:black;
+
+}
+
+footer {
+position: fixed;
+left:-15px;
+bottom:-30;
+z-index: 10;
+background-color: black;
+width:100vw;
+padding-left:40px;
+padding-bottom: 20px;
+border: inset;
+border-color:yellow;
+}
+
+h1, h2, h3 {
+	font-family: 'VT323', monospace;
+	font-weight: bold;
+	font-weight:100;
+	font-variant-caps: all-small-caps;
+	filter: blur(0.7px);
+}
+
+h1 {
+color: white;
+font-size: 8vw;
+line-height: 0.5;
+
+font-weight: 900;
+font
+margin-top: 10px;
+align-self: center;
+align-content: center;
+border-style: dotted;
+line-height: 1.2;
+
+width: 175%;
+height: 25vw;
+
+background-color:blue;
+padding-left:30px;
+padding-right:20px;
+border-color: blue;
+
+
+
+}
+
+h2 {
+color: white;
+background-color: blue;
+font-size:15vw;
+line-height: 0.5;
+padding: 10 30 80 70;
+margin:20;
+position: relative;
+z-index:2
+left: 3;
+}
+
+h3 {
+color: lime;
+font-size:90px;
+width:90%;
+height:10%;
+padding:20px;
+position: relative;
+border-style: hidden;
+}
+
+p {
+color: yellow;
+margin-left: 20px;
+margin-right: 20px;
+font-weight:110%;
+padding:5px;
+font-size: 20px;
+float: left;
+clear:both;
+z-index:-1;
+border-style: hidden;
+filter: blur(0.7px);
+}
+
+
+
+ul {
+  color: orange;
+
+}
+
+ol {
+height:120;
+border-style: hidden;
+height: 63.5vh;
+
+}
+
+li {
+color: aqua;
+align-items: center;
+list-style:  inherit;
+font-size:2vh;
+border-style: hidden;
+position:relative;
+width:70%;
+padding-top: 10px;
+margin-top: 5px;
+margin-bottom:10px;
+
+}
+
+em {
+
+	color: white;
+	border-style: hidden;
+}
+
+abbr {
+color: white;
+border-style: hidden;
+}
+
+p:nth-of-type(4n) {
+	color: rgb(255,100,225);
+
+
+}
+
+
+p:nth-of-type(3) {
+	color: aqua;
+
+}
+
+p.preamble {
+	color:white;
+
+}
+
+
+
+.style-selector {
+
+background-color: black;
+width:25%;
+height:100vh;
+padding: 30px 12px;
+margin-bottom:-10;
+position: fixed;
+top:-1px;
+text-align: left;
+left: 76vw;
+padding-right:200;
+z-index:5;
+font-weight: bolder;
+
+}
+
+ol li {
+
+	color:red;
+	height:3.2%;
+	padding:5px;
+	padding-top:10px;
+	font-size:90%;
+	border-style: dashed;
+	border-color: orchid;
+	overflow: hidden;
+	white-space: nowrap;
+	position:relative;
+	top:-60px;
+	left:-55;
+	padding-right:5vw;
+
+
+
+}
+
+
+ol li :hover {
+background-color:magenta;
+opacity: 50%;
+filter: blur(0.7px);
+
+}
+
+aside {
+
+	float:right;
+	clear: both;
+	height:20px;
+	overflow: scroll;
+
+
+}
+
+.style-selector h3 {
+font-size: 3vw;
+color:fuchsia;
+overflow: hidden;
+height: 1vh;
+width:17vw;
+padding-bottom:80px;
+position: relative;
+top:-30px;
+left:5;
+margin-bottom:50px;
+text-decoration-line: underline;
+text-transform: full-width;
+z-index: 3;
+border-style: dashed;
+border-color: orchid;
+}
+
+.style-selector {
+
+	filter: blur(0.4px);
+}
+
+h3 main {
+border-style: dotted;
+
+
+}
+
+blockquote {
+
+color: aqua
+;
+font-size: 180%;
+margin: 10px;
+border-style: hidden;
+font-style: 10%;
+width: 80%;
+position:relative;
+left: 30px;
+font-weight: bolder;
+align-content: center;
+filter: blur(0.7px);
+}
+
+a[href^="http"], a[href^="style.css"] {
+	color: rgb(60,125,255);
+	border-style: hidden;
+
+}
+
+
+nav {
+
+	border-style: hidden;
+}
+
+a:link {
+color:yellow;
+}
+
+a:hover {
+	background-color: rgba(201,201,255,0.5)
+}
+
+ul li {
+
+
+	filter: blur(0.7px);
+}
+
+
+footer p {
+
+	width: 180vw;
+	animation: animatedscroll 10s linear infinite;
+	background-color: blue;
+	padding-left: 1400;
+	padding-right:800;
+}
+
+
+@keyframes animatedscroll {
+
+0%
+{
+transform: translatex(-2%);
+
+}
+100% {
+transform: translateX(-65%)
+
+}
+
+}
