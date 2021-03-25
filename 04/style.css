@@ -1,0 +1,267 @@
+html {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: black;
+  padding: 0vh;
+}
+
+body {
+  background-color: #cccccc;
+  padding: 0;
+  margin: 0;
+  height: 10vh;
+}
+
+header {
+  background-image: url("https://cdn.glitch.com/ecd415f2-8bfa-49ba-adb0-be63a1efe487%2Fmesh4.jpg?v=1616662812642");
+  background-color: #3d3d3d;
+  background-position: contain;
+  background-size: repeat;
+  padding-top: 10vh;
+  height: 50vh;
+}
+
+main {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 15px;
+  background-image: url("https://cdn.glitch.com/ecd415f2-8bfa-49ba-adb0-be63a1efe487%2Fconcretebg.jpg?v=1616670035952");
+  background-color: khaki;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main p {
+  flex-basis: calc(50% - 40px);
+  padding: 20px;
+  background-color: #f6f0c3;
+  opacity: 0.9;
+}
+
+abbr {
+  text-decoration: dotted;
+}
+
+p:nth-of-type(1) {
+  background-color: white;
+  font-weight: 600;
+  flex-basis: 100%;
+}
+
+p:nth-of-type(3) {
+  font-weight: 300;
+}
+
+p:nth-of-type(4) {
+  flex-basis: 100%;
+}
+
+p:nth-of-type(15) {
+  flex-basis: 100%;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 800%;
+  text-shadow: 10px 10px 0px red;
+  position: fixed;
+  padding-top: 0.6vh;
+  margin: 0;
+  overflow: hidden;
+  animation: text-uppe 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+@keyframes text-uppe {
+  0% {
+    transform: translate(100vw, 0vh);
+  }
+  100% {
+    transform: translate(-380vw, 0vh);
+  }
+}
+
+h2 {
+  font-family: "Special Elite", cursive;
+  font-size: 30px;
+  color: red;
+  text-align: right;
+  transform: rotate(-2deg);
+  padding-right: 40px;
+  flex-basis: 100%;
+}
+
+h3 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px khaki;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  flex-basis: 100%;
+}
+
+.preamble {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  background-color: white;
+  font-size: 40px;
+  color: red;
+  padding: 2.4vh;
+  text-transform: uppercase;
+}
+
+ol {
+  color: white;
+  background-color: black;
+  padding-left: 40px;
+  margin: 10px;
+}
+
+ul {
+  color: white;
+  background-color: black;
+  padding: 30px 50px 40px 90px;
+  flex-basis: 100%;
+}
+
+p {
+  color: black;
+}
+
+blockquote {
+  font-family: "Special Elite", cursive;
+  font-size: 30px;
+  color: darkblue;
+  text-align: left;
+  flex-basis: 100%;
+  padding: 50px;
+  padding-top: 30px;
+  transform: rotate(-1deg);
+}
+
+em {
+  color: black;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+}
+
+abbr {
+  color: black;
+}
+
+footer {
+  background-image: url("https://cdn.glitch.com/ecd415f2-8bfa-49ba-adb0-be63a1efe487%2Fmesh4.jpg?v=1616662812642");
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  padding: 5vh;
+}
+aside {
+  background-color: black;
+  position: fixed;
+  top: 10%;
+  right: -460px;
+  text-transform: uppercase;
+  padding: 0px 50px 25px 10px;
+  width: 450px;
+  height: 600px;
+  transition: transform 1s;
+  white-space: nowrap;
+}
+aside:hover {
+  transform: translateX(-360px);
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+/* only for high density devices with a specific maximum width */
+
+@media only screen and (-webkit-device-pixel-ratio: 2) and (max-device-width: 896px) {
+}
+
+/* only for screen */
+
+@media screen {
+}
+
+/* only for print */
+
+@media print { 
+  
+  html{
+    font-size: 10pt;
+    line-height: 1.5
+  }
+  
+  #header{
+  height:100vh;
+  text-align: center;
+  }
+  
+  #footer, #nav { display: none !important; } 
+}
+  
+  
+
+@keyframes slide {
+  0% {
+    background-color: white;
+    left: 70%;
+    top: 20%;
+  }
+  25% {
+    background-color: white;
+    left: 70%;
+    top: 20%;
+  }
+  75% {
+    background-color: white;
+    left: 95%;
+    top: 20%;
+  }
+  100% {
+    background-color: white;
+    left: 95%;
+    top: 20%;
+  }
+}
+
+@keyframes menu {
+  0% {
+    transform: translate(100%, 20%);
+  }
+  100% {
+    transform: translate(80%, 20%);
+  }
+}
